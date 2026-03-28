@@ -11,7 +11,7 @@ AFTER INSERT ON patients
 FOR EACH ROW
 BEGIN
     INSERT INTO audit_log(message)
-    VALUES ('New patient added');
+    VALUES (CONCAT('New patient added: ', NEW.name));
 END //
 
 DELIMITER ;
