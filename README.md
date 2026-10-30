@@ -7,7 +7,7 @@ It manages hospital operations such as:
 - Patient registration and management  
 - Doctor and staff information  
 - Appointments and medical records  
-- Billing management  
+- Billing managements  
 - Auditing actions via triggers and stored procedures  
 
 This project demonstrates the use of **tables, relationships, triggers, and stored procedures** to efficiently manage hospital data.
